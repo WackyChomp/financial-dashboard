@@ -1,5 +1,6 @@
 from dash import Dash, html
 from . import location_dropdown
+from . import bar_chart
 
 def create_layout(app: Dash) -> html.Div:
   return html.Div(
@@ -13,6 +14,8 @@ def create_layout(app: Dash) -> html.Div:
         children=[
           location_dropdown.render(app)
         ]
-      )
+      ),
+
+      bar_chart.render(app)
     ],
   ) 

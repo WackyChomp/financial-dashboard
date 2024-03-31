@@ -43,7 +43,13 @@ run app from main.py
       <a href="#about-the-project">About The Project</a>
     </li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
-    <li><a href="#"></a></li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installations">Installations</a></li>
+        <li><a href="#setup">Setup</a></li>
+      </ul>
+    </li>
     <li><a href="#"></a></li>
   </ol>
 </details>
@@ -51,6 +57,43 @@ run app from main.py
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+### Installations
+1. Libraries and packages used (optional: if you want to manually install individual dependency versions)
+    ```sh
+    pip install dash dash-core-components
+    ```
+
+### Setup
+Quickly running locally
+1. Clone the repo
+   ```sh
+   git clone https://github.com/WackyChomp/financial-dashboard.git
+   ```
+2. <b>[Recommended]</b> Create virtual environment in root directory
+   ```
+   python -m venv <VENV_NAME>
+   ```
+3. <b>[Recommended]</b> Activate the virtual environment before installing libraries/packages
+   ```sh
+   . <VENV_NAME>/Scripts/activate
+   ```
+4. Install libraries/packages into root directory
+   ```sh
+   pip install -r requirements.txt
+   ```   
+5. Run on local computer <b>[Run in <u>main.py</u>]</b>
+   <br/><b>[VSCode environment]</b>
+   ```
+    Menu Bar: Run -> Start Debugging
+   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -71,4 +114,5 @@ List of wonderful resources and credits to:
 * [Shadcn/ui](https://ui.shadcn.com/docs) - Customizable UI components
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
