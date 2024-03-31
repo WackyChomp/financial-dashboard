@@ -8,6 +8,8 @@ python -m venv venv-dash
 
 create requirements.txt
 pip freeze > requirements.txt
+
+run app from main.py
 -->
 
 
@@ -69,3 +71,4 @@ List of wonderful resources and credits to:
 * [Shadcn/ui](https://ui.shadcn.com/docs) - Customizable UI components
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
